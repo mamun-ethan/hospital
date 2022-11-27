@@ -1,0 +1,47 @@
+:root {
+  --primary: #13c5dd;
+  --secondary: #354f8e;
+  --light: #eff5f9;
+  --dark: #1d2a4d;
+}
+
+.btn {
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 6px -6px #555555;
+}
+
+.btn-primary {
+  color: #ffffff;
+}
+
+.btn-square {
+  width: 36px;
+  height: 36px;
+}
+
+.btn-sm-square {
+  width: 28px;
+  height: 28px;
+}
+
+.btn-lg-square {
+  width: 46px;
+  height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.hero-header {
+  background: url(../img/hero.jpg) top right no-repeat;
+  background-size: cover;
+}
